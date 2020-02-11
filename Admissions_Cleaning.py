@@ -16,7 +16,11 @@ def vaildateGPA(mydf):
         if scores < 0 or scores > 4:
             mydf = mydf.drop(mydf.index[mydf['GPA']==scores])
     return mydf
-
+def vaildateLabel(mydf):
+    for labels in mydf.Decision:
+        if labels != 'Admit' and labels != 'Decline' and labels != 'Waitlist':
+            mydf = mydf.drop(mydf.index[mydf['Decision']==labels])
+    return mydf
 def vaildateGender(mydf):        
     for genders in mydf.Gender:
         if genders != 1 and genders != 0:
