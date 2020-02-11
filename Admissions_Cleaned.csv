@@ -1,7 +1,6 @@
 Decision,State,GPA,WorkExp,TestScore,WritingScore,Gender,VolunteerLevel
 Admit,California,3.9,6.7,962.0,100,1.0,0
 Admit,Florida,3.8,1.4,969.0,97,1.0,4
-Banana,California,3.8,2.3,970.0,98,0.0,5
 Admit,Colorado,3.6,0.9,969.0,97,0.0,2
 Admit,California,3.88,1.5,967.0,95,1.0,5
 Admit,California,3.7,1.2,969.0,94,1.0,2
